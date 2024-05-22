@@ -77,6 +77,8 @@ dependencies {
     //room db
     implementation("androidx.room:room-runtime:2.6.1")
     testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
     kapt("androidx.room:room-compiler:2.6.1")
 //  implementation("androidx.room:room-coroutines:2.1.0-alpha04") // Kotlin Extensions and Coroutines support for Room
     implementation("androidx.room:room-ktx:2.6.1")
@@ -87,6 +89,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     kapt(libs.hilt.compiler)
     implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+    androidTestImplementation("androidx.navigation:navigation-testing:2.7.0")
 
     kapt(libs.androidx.hilt.compiler)
     testImplementation(libs.junit)
@@ -96,11 +99,14 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    androidTestImplementation ("com.google.dagger:hilt-android-testing:2.50")
+    kaptAndroidTest ("com.google.dagger:hilt-android-compiler:2.50")
 
 
+    testImplementation ("org.mockito:mockito-inline:3.12.4")
+    testImplementation ("com.google.firebase:firebase-firestore:25.0.0") // Include Firestore dependency for testing
 
-
-    testImplementation( "org.mockito:mockito-core:3.+") // Mockito for mocking dependencies
+    testImplementation( "org.mockito:mockito-core:3.12.4") // Mockito for mocking dependencies
 
     // Coroutines test dependencies (for testing suspending functions and flows)
     testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.1")
