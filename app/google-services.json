@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "803742110117",
+    "project_id": "customer-onboarding-vdi169",
+    "storage_bucket": "customer-onboarding-vdi169.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803742110117:android:65e511c6c96f7c374b984c",
+        "android_client_info": {
+          "package_name": "com.jay.businessaccmgmt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803742110117-1ps32c6e0btvs7m5635ucmnu35267jmv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jay.businessaccmgmt",
+            "certificate_hash": "3bace4650bfacd9427070e0f8fc9251c7f7334f1"
+          }
+        },
+        {
+          "client_id": "803742110117-up4kvraq27bc6gin4967ilff3tvguu48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-_NV0T2AsbXvxMnDpJQwM_E_s9xP87FQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "803742110117-up4kvraq27bc6gin4967ilff3tvguu48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
